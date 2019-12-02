@@ -1,22 +1,95 @@
-.App {
+.app {
+
+  padding: 80px;
+
+}
+
+
+
+.social-card {
+
+  border: 1px solid black;
+
+  border-radius: 4px;
+
+  max-width: 600px;
+
+}
+
+
+
+.social-card img {
+
+  max-width: 100%;
+
+}
+
+
+
+.social-card-text {
+
+  padding: 12px;
+
+}
+
+
+
+.social-card-text h3 {
+
+  margin-top: 0;
+
+}
+
+
+
+.social-card-text a {
+
+  color: gray;
+
+  text-decoration: none;
+
+}
+
+
+
+.counter-container {
+
+  border: 1px solid black;
+
+  border-radius: 4px;
+
   text-align: center;
+
 }
 
-.App-logo {
-  height: 40vmin;
+
+
+.counter-container h1 {
+
+  font-size: 64px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+
+.counter-button {
+
+  font-size: 44px;
+
+}
+
+
+
+.button-container {
+
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
 }
 
-.App-link {
-  color: #09d3ac;
+
+
+.button-container button {
+
+  flex: 1;
+
 }
